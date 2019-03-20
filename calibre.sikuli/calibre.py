@@ -1,8 +1,7 @@
 import time
-
 while True:
     try:
-        if find("1553110042070.png"):
-            click(Pattern("1553110042070.png").targetOffset(124,28))
+        if find("1553112404444.png"):
+            click(Pattern("1553112404444.png").targetOffset(10,-1))
     except:
-        time.sleep(10)
+        time.sleep(5)
